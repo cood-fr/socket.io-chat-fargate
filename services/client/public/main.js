@@ -192,7 +192,8 @@ Vue.component('rooms', {
         <span class="room-status" v-if="room.status!='none'" :class="room.status"></span>
         <img :src="room.image" alt="" />
         <div class="meta">
-          <p class="name">{{ room.name }}</p>
+        
+          <p class="name">ROOM :{{ room.name }}</p>
           <p class="preview">{{ room.preview }}</p>
         </div>
       </div>
